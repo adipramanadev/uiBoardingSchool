@@ -113,7 +113,7 @@ class SchoolProfilePage extends StatelessWidget {
                     errorWidget: (context, url, error) =>
                         const Icon(Icons.error),
                   ),
-                  Container(color: Colors.black.withOpacity(0.5)),
+                  Container(color: Colors.black.withAlpha(50)),
                 ],
               ),
             ),
